@@ -23,13 +23,13 @@ function NhanVien(tknv,ten,email,mk,datepicker,luongcb,position,gio) {
     }
     this.xepLoai = function () {
         if (this.gio < 160) {
-            this.xl = "Nhân viên trung bình";
+            this.xl = "TB";
         } else if ((this.gio >= 160) && (this.gio < 176)) {
-            this.xl = "Nhân viên khá";
+            this.xl = "K";
         } else if ((this.gio >= 176) && (this.gio < 192)) {
-            this.xl = "Nhân viên giỏi";
+            this.xl = "G";
         } else if (this.gio >= 192) {
-            this.xl = "Nhân viên xuất sắc";
+            this.xl = "XX";
         }
     }
 }
